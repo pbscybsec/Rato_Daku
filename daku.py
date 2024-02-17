@@ -109,3 +109,24 @@ logo_design_3 = Fore.RED + '''
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 '''
 
+page_1 = '''\n
+{0}[{1}1{0}] {1}Show Connected Devices      {0}[{1}6{0}] {1}Screen record a phone               {0}[{1}11{0}] {1}Uninstall an app                   
+{0}[{1}2{0}] {1}Disconect all devices       {0}[{1}7{0}] {1}Screen Shot a picture on a phone    {0}[{1}12{0}] {1}Show real time log of device       
+{0}[{1}3{0}] {1}Connect a new phone         {0}[{1}8{0}] {1}Restart Server                      {0}[{1}13{0}] {1}Dump System Info                   
+{0}[{1}4{0}] {1}Access Shell on a phone     {0}[{1}9{0}] {1}Pull folders from phone to pc       {0}[{1}14{0}] {1}List all apps on a phone           
+{0}[{1}5{0}] {1}Install an apk on a phone   {0}[{1}10{0}] {1}Turn The Device off                {0}[{1}15{0}] {1}Run an app                         
+
+
+{0}[{1}99{0}] {1}Exit   {0}[{1}0{0}] {1}Clear   {0}[{1}p{0}] Next Page                           
+'''.format(Fore.CYAN, Fore.RED, Fore.GREEN)
+
+page_2 = '''\n
+{0}[{1}16{0}]{1} Port Forwarding                {0}[{1}21{0}]{1} NetStat                    {0}[{1}26{0}]{1} Send file/folder from PC to Phone
+{0}[{1}17{0}]{1} Grab wpa_supplicant            {0}[{1}22{0}]{1} Turn WiFi On/Off                 
+{0}[{1}18{0}]{1} Show Mac/Inet                  {0}[{1}23{0}]{1} Remove Password
+{0}[{1}19{0}]{1} Extract apk from app           {0}[{1}24{0}]{1} Use Keycode            
+{0}[{1}20{0}]{1} Get Battery Status             {0}[{1}25{0}]{1} Get Current Activity                  
+
+
+{0}[{1}99{0}] {1}Exit   {0}[{1}0{0}] {1}Clear   {0}[{1}b{0}] Back to page one
+'''.format(Fore.CYAN, Fore.RED, Fore.GREEN)
