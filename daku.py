@@ -166,6 +166,8 @@ def main():
         os.system("adb -s  "+device_name+" install "+apk_location)
         print (Fore.GREEN  +  "Apk has been installed.")
 
+
+
     elif option ==  '6':
         print (("\n[{0}+{1}]Enter a device name.").format(Fore.RED, Fore.WHITE))
         device_name = input(arrow + "phonesploit"+Fore.RED + "(screen_record) "+Fore.WHITE + "> ")
@@ -792,3 +794,29 @@ def cls(page):
 
 platform = get_platform()
 
+if platform == 'Windows':
+    try:
+        init(convert=True)
+        os.chdir(CurrentDir+"//adb")
+        print (Fore.RED + "Starting  adb server..")
+        os.system("adb tcpip 5555")
+        t.sleep(4)
+        os.system('cls')
+        banner_title = random.choice([logo_design_1,logo_design_2,logo_design_3])
+        print (Fore.RED + banner_title)
+        print (page_1)
+        main()
+    except KeyboardInterrupt:
+        main()
+else:
+    try:
+        print (Fore.RED + "Starting  adb server..")
+        os.system("adb tcpip 5555")
+        t.sleep(4)
+        os.system('clear')
+        banner_title = random.choice([logo_design_1,logo_design_2,logo_design_3])
+        print (Fore.RED + banner_title)
+        print (page_1)
+        main_linux()
+    except KeyboardInterrupt:
+        main_linux()
