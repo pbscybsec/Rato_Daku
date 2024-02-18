@@ -1,6 +1,8 @@
 <h1 align="center" id="title">Rato Daku</h1>
 
-<p align="center"><img src="https://socialify.git.ci/pbscybsec/Rato_Daku/image?description=1&amp;descriptionEditable=&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Overlapping%20Hexagons&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
+<p align="center">
+  <img src="demo/logo.jpg" alt="project-logo" width="200px" height="200px"/>
+</p>
 
 <p id="description">This tool is designed as an educational resource to demonstrate the capabilities of the Android Debug Bridge (ADB) for security testing and research. It provides a user-friendly command-line interface for exploring various ADB exploits and functionalities emphasizing learning and understanding the security implications of these actions on Android devices.</p>
 
